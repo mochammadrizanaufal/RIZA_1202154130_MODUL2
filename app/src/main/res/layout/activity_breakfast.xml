@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_marginHorizontal="16dp"
+tools:context="com.example.android.riza_1202154130_modul2.breakfast">
+
+<TextView
+    android:id="@+id/breakfast"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="23dp"
+    android:text="Chicken Breakfast"
+    android:textStyle="bold"
+    android:textAlignment="center"
+    android:textSize="25sp" />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_marginTop="15dp"
+    android:scaleType="fitXY"
+    android:src="@drawable/breakfast"
+    />
+
+<TextView
+    android:id="@+id/harga"
+    android:text="Rp 55.000"
+    android:textSize="18dp"
+    android:textAlignment="center"
+    android:textColor="#111"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="18dp"/>
+
+<TextView
+    android:id="@+id/komposisi"
+    android:text="Komposisi :"
+    android:textSize="16dp"
+    android:textAlignment="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="18dp"/>
+
+<TextView
+    android:id="@+id/isi"
+    android:text="Ayam, Kentang, Blue Sky, Coke"
+    android:textSize="16dp"
+    android:textAlignment="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="18dp"/>
+
+
+</LinearLayout>
+
