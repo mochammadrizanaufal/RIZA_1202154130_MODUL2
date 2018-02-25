@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(), message,
                 Toast.LENGTH_SHORT).show();
     }
-    public void onRadioButtonClicked(View view) {           // Method untuk memberikan respon terhadap radio button yang diklik
+    public void onRadioButtonClicked(View view) {            // Method untuk memberikan respon terhadap radio button yang diklik
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
         // Check which radio button was clicked

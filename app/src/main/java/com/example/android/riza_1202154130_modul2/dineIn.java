@@ -23,23 +23,7 @@ public class dineIn extends AppCompatActivity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dine_in);
 
-        // Membuat Spinner
-        Spinner spinner_meja = (Spinner) findViewById(R.id.label_spinner);           //Buat instance objek (spinner_meja) menggunakan elemen Spinner di layout (label_spinner)
-        if (spinner_meja != null) {
-            spinner_meja.setOnItemSelectedListener(this);                           //tetapkan listener-nya
-        }
 
-        // Membuat ArrayAdapter menggunakan string array dan layout spinner yang disediakan android
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.meja_array, android.R.layout.simple_spinner_item);
-
-        // Menspesifikasikan layout yang digunakan saat terdapat daftar pilihan
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-
-        // Mengaplikasikan adapter ke spinner
-        if (spinner_meja != null) {
-            spinner_meja.setAdapter(adapter);
-        }
     }
 
     @Override

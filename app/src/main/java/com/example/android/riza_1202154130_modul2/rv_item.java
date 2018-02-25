@@ -78,7 +78,7 @@ public class rv_item extends RecyclerView.Adapter<rv_item.ViewHolder> {
         final String harga = rvHarga.get(position);
         final Integer gambar = rvGambar.get(position);
         holder.tvTitle.setText(name);
-        holder.tvSubtitle.setText("Harga " + harga);
+        holder.tvSubtitle.setText(harga);
         holder.iv_menu.setImageResource(gambar);
     }
 

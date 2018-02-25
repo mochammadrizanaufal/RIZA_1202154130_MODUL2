@@ -6,6 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/pink"
     tools:context="com.example.android.riza_1202154130_modul2.SplashScreen">
 
     <ImageView
@@ -15,7 +16,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="61dp"
         android:scaleType="fitXY"
-        android:src="@drawable/lospollos" />
+        android:src="@drawable/test" />
 
     <ProgressBar
         android:id="@+id/progresBar1"
